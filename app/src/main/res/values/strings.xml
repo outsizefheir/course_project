@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Prodj_on_kurs</string>
+    <string name="search_hint_text">Введите ключевое слово для поиска</string>
+    <string name="search_button_description">Описание кнопки поиска</string>
+    <string name="add_button_description">Описание кнопки добавления</string>
+</resources>

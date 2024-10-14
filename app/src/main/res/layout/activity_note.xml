@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите название"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите заголовок"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/title"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/black"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_above="@id/saveButton"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите содержимое"
+                android:textSize="18sp"
+                android:gravity="start"
+                android:inputType="textMultiLine"
+                android:minLines="5"
+                android:scrollbars="vertical"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_save"
+        android:background="@android:color/transparent"
+        android:contentDescription="Сохранить"
+        android:layout_marginBottom="24dp"
+        android:onClick="save" />
+
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_delete"
+        android:background="@android:color/transparent"
+        android:contentDescription="Удалить"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="delete" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+

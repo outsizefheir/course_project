@@ -18,3 +18,11 @@ git clone https://github.com/outsizefheir/course_project.git
  ---
  
 В папке `assets` вы найдете APK файл приложения. Для установки на телефон
+
+---
+
+Photo
+
+![Image 1](https://github.com/outsizefheir/course_project/blob/master/assets/1.jpg)
+![Image 2](https://github.com/outsizefheir/course_project/blob/master/assets/2.jpg)
+![Image 3](https://github.com/outsizefheir/course_project/blob/master/assets/3.jpg)
